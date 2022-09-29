@@ -13,4 +13,4 @@ df["seq_length"] = df["loc.end"]-df["loc.start"]
 #subtracts the sequence end from sequence start to give seq length and adds new column.
 
 df.to_csv("brca_cnvs_tcga-2.csv")
-#exports ouutput as csv file
+#exports ouutput as csv file.
